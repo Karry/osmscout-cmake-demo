@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(Peaks)
+find_package(libosmscout REQUIRED COMPONENTS OSMScout Map)
+add_executable(peaks main.cpp)
+target_link_libraries(peaks PRIVATE OSMScout::OSMScout)
