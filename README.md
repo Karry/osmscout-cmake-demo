@@ -1,0 +1,1 @@
+# osmscout-cmake-demo
